@@ -1,0 +1,15 @@
+
+# Compiled executables
+*.exe
+ev_planner
+
+# Object files
+*.o
+
+# Temporary files
+*.tmp
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
