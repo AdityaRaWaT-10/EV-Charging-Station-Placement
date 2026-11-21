@@ -4,6 +4,7 @@
 #include "ev_planner.h"
 #include "input_validation.h"
 #include "advanced_algorithms.h"
+#include "stress_benchmark.h"
 
 int main(void)
 {
@@ -68,6 +69,10 @@ int main(void)
 
             case 11:
                 advanced_algorithms_menu();
+                break;
+
+            case 12: 
+                run_stress_benchmark();
                 break;
 
             default:
