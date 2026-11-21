@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
 #include "input_validation.h"
 
 int read_integer(const char *prompt, int *value)
